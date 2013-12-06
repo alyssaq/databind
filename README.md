@@ -1,6 +1,8 @@
-reactjs - sample
+Data Bind
 =======
 
-A place to play with [reactjs](http://facebook.github.io/react/)
+A place to play with data bind
 
-1) subscribe elements to an intermediate object
+Look into    
+[reactjs](http://facebook.github.io/react/)
+
