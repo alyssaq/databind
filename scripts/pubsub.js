@@ -23,6 +23,7 @@ var pubsub = (function() {
           args: []
         }
       } else {
+        //Could accidentally subscribe the same function multiple times
         cache[id].callbacks.push(fn);
       }
 
