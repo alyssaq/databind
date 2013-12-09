@@ -29,7 +29,7 @@ var pubsub = (function() {
 
       //Execute past published messages to late subs
       for (var i = 0, il = cache[id].args.length; i < il; i++) {
-        fn.apply(null, cache[id].args[i]);
+       // fn.apply(null, cache[id].args[i]);
       }
     },
     unsub: function(id, fn) {
